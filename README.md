@@ -52,7 +52,7 @@ The Code has been tested for up to 30 Queens (I would test more but my laptop st
 
 - **mutate Function**: Introduces mutations in the genes of new child individuals based on the mutation rate.
 
-- **printout_pop Function**: Displays information about the current population, including generation count, member names, genes, and fitness scores.
+- **printout_pop Function**: Displays information about the current population, including generation count, member names, genes, and fitness scores. Used primarily for debugging.
 
 - **Main Loop**: The code enters a loop until a solution is found (fitness equals 0). In each generation, it performs selection, crossover, mutation, and sorting operations while keeping track of the generation count.
 
