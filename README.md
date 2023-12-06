@@ -36,9 +36,9 @@ The Code has been tested for up to 30 Queens (I would test more but my laptop st
   - Fitness (measure of conflicts)
   - Ancestor list (for parent tracking).
 
-- **assign_rand Function**: Randomly assigns genes to create the initial generation and assigns random names to each member. This mostly for fun.
+- **assign_rand Function**: Randomly assigns genes to create the initial generation.
 
-- **assign_name Function**: Randomly selects a name from a list and assigns it to an individual. Also mostly for fun.
+- **assign_name Function**: Randomly selects a name from a list and assigns it to an individual. This is mostly for fun.
 
 - **initialize Function**: Sets up the initial population by calling `assign_rand` iteratively and returns a list of individuals.
 
