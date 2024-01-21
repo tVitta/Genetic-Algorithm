@@ -19,7 +19,7 @@ Here is a sample solution to an 8 Queens problem:
 This solution in array format would be [1, 7, 4, 6, 8, 2, 5, 3].  
 
 ## Code Breakdown  
-The Code has been tested for up to 30 Queens (I would test more but my laptop stinks really bad). Theoretically it should work for an infinite number of queens, if you are comfortable waiting for the heat death of the universe.
+The Code has been tested for up to 32 Queens (I would test more but my laptop stinks really bad). Theoretically it should work for an infinite number of queens, if you are comfortable waiting for the heat death of the universe.
 
 - **Initialization**: Various constants and parameters are defined for the genetic algorithm, including:
   - Number of queens (N)
